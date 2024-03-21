@@ -7,9 +7,9 @@ import Product2 from "../public/image 302.svg";
 function projectFeatures() {
   return (
     <div id="award" className="max-w-[1400px] min-h-[1320px] flex justify-center ">
-      <div className="max-w-[953px] min-h-[1320px]">
+      <div className="max-w-[953px] mx-2 md:mx-0 min-h-[1320px]">
         <div className="">
-          <h1 className="text-[48px] font-[700] text-[#E16E4E] ">
+          <h1 className=" text-[36px] md:text-[48px] font-[700] text-[#E16E4E] ">
             Awards & Recognition
           </h1>
           <h3 className="font-[400]  text-[18px] text-[#202020]">

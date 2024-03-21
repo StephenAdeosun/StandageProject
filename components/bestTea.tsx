@@ -6,10 +6,10 @@ import Product2 from "../public/Mask group (2).svg";
 
 function bestTea() {
   return (
-    <div id="products" className="max-w-[1400px] min-h-[1320px] flex justify-center ">
-      <div className="max-w-[953px] min-h-[1320px]">
+    <div id="products" className="max-w-[1400px] mt-[60px] md:mt-0 min-h-[1320px] flex justify-center ">
+      <div className="max-w-[953px] mx-2 md:mx-0 min-h-[1320px]">
         <div className="">
-          <h1 className="text-[48px] text-center font-[700] text-[#E16E4E] ">
+          <h1 className="text-[36px] md:text-[48px] text-center font-[700] text-[#E16E4E] ">
             Get the best from our Tea
           </h1>
           <h3 className="font-[400] text-center  text-[18px] text-[#202020]">
@@ -31,7 +31,7 @@ function bestTea() {
             <h1 className="font-[600] text-[32px]  text-[#202020]">
               With Milk
             </h1>
-            <p className="font-[400]  leading-[32px] w-full text-[18px] text-[#333333]">
+            <p className="font-[400]  leading-[26px] md:leading-[32px] w-full text-[18px] text-[#333333]">
               Savor the perfect union of tradition and comfort by enjoying our
               tea with milk. Elevate your tea-drinking experience as the rich,
               robust flavors intertwine with the creamy embrace of milk,
@@ -50,7 +50,7 @@ function bestTea() {
             <h1 className="font-[600] text-[32px]  text-[#202020]">
               With ice
             </h1>
-            <p className="font-[400]  leading-[32px] w-full text-[18px] text-[#333333]">
+            <p className="font-[400]  leading-[26px] md:leading-[32px] w-full text-[18px] text-[#333333]">
               Embrace the refreshing symphony of flavors as you take a cool
               journey through our teas enjoyed with ice. Immerse yourself in the
               invigorating fusion of iced tea, where each sip unfolds a

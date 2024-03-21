@@ -5,7 +5,7 @@ import Link from "next/link";
 
 function elevate() {
   return (
-    <div className="relative max-w-[1400px] min-h-[640px] flex justify-center items-center">
+    <div className="relative max-w-[1400px] px-2 min-h-[640px] flex justify-center items-center">
       <Image
         src={Bg}
         alt="Background Image" 
@@ -13,11 +13,11 @@ function elevate() {
         objectFit="cover"
       />
 
-      <div className="max-w-[647px] w-full min-h-[340px] z-10  text-white">
-        <h1 className="text-4xl font-semibold leading-tight">
+      <div className="max-w-[647px]  w-full min-h-[340px] z-10  text-white">
+        <h1 className=" text-[32px] md:text-4xl font-semibold leading-tight">
           Indulge in the Extraordinary.
           <br />
-          <span className="text-orange-400">Elevate Your Sip</span>, Elevate
+          <span className="text-[#DBCA00]">Elevate Your Sip</span>, Elevate
           Your Life.
         </h1>
         <p className="text-lg mt-4">
@@ -26,10 +26,10 @@ function elevate() {
           flavor, wellness, and pure indulgence.
         </p>
         <Link href="/aboutBrand">
-          <button className="mt-8 px-8 py-3 bg-orange-400 text-white font-medium rounded-lg">
-            Buy Now
-          </button>
-        </Link>
+              <button className="min-w-[270px] mt-[48px] bg-[#E16E4E] py-[16px] text-white text-[16px] font-[600]">
+                Buy Now
+              </button>
+            </Link>
       </div>
     </div>
   );

@@ -5,13 +5,13 @@ function faq() {
     return (
         <div id='faq' className="max-w-[1400px] min-h-[1320px] flex justify-center ">
 
-<div className="max-w-[953px] min-h-[1320px]">
+<div className="max-w-[953px] mx-2 md:mx-0 min-h-[1320px]">
     <div>
 
-        <h1 className="text-[48px] font-[700] text-center text-[#E16E4E] ">
+        <h1 className="text-[36px] md:text-[48px] font-[700] text-center text-[#E16E4E] ">
         Frequently Asked Questions
         </h1>
-        <h3 className="font-[400] leading-[32px] m-auto max-w-[688px] text-center  text-[18px] text-[#202020]">
+        <h3 className="font-[400] leading-[26px] md:leading-[32px] m-auto max-w-[688px] text-center  text-[18px] text-[#202020]">
         Dive into the details! Here are answers to some commonly asked questions. If you don&apos;t find what you&apos;re looking for, feel free to reach out to us – we&apos;re here to help!
         </h3>
     </div>
