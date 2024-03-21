@@ -9,7 +9,7 @@ function aboutBrand() {
       <div className=" mx-2 min-h-[557px] sm:m-auto max-w-[1037px] gap-[14px] md:gap-[39px] flex flex-col md:flex-row space-between">
         <div className="  min-h-[557px]  max-w-[499px]">
           <h1 className="font-[700] text-[36px] md:text-[64px] text-[#E16E4E]">About Brand</h1>
-          <p className="font-[400] md:min-h-[377px] md:leading-[32px] text-[16px] md:text-[18px] text-[#333333]">
+          <p className="font-[400] md:min-h-[377px] leading-[26px]  md:leading-[32px] text-[16px] md:text-[18px] text-[#333333]">
             Lakshimi started with a tea class that the representative, Yoko
             Toda, started at home. In 2005, “Lakshimi Tea Shop” opened in
             Kitano, Kobe. In 2008, we started to blend our own original tea.
